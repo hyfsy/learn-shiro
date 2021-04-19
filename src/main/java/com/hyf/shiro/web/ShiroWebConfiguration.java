@@ -18,7 +18,7 @@ import java.util.EnumSet;
  * @author baB_hyf
  * @date 2021/04/14
  */
-@ConditionalOnNotWebApplication // 测试Spring时关闭
+// @ConditionalOnNotWebApplication // 测试Spring时关闭
 @Configuration
 @Import(OtherConfiguration.class)
 public class ShiroWebConfiguration {
